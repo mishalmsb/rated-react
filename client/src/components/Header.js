@@ -37,7 +37,7 @@ class Header extends Component {
 						to={this.props.auth ? '/surveys' : '/'}
 						className="left brand-logo"
 					>
-						Emaily
+						Rated
 					</Link>
 					{/* hide-on-med-and-down */}
 					<ul id="nav-mobile" className="right">
