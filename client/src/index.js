@@ -8,6 +8,19 @@ import reduxThunk from 'redux-thunk';
 import App from './components/App';
 import reducers from './reducers';
 
+// // *** temp code for testing send email ***
+// import axios from 'axios';
+// window.axios = axios;
+//
+// // on console
+// const survey = {
+// 	title: 'my title',
+// 	subject: 'my subject',
+// 	body: 'Heres is the body of the email',
+// 	recipients: ''
+// };
+// axios.post('/api/surveys', survey);
+
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 ReactDOM.render(
