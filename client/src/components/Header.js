@@ -39,7 +39,6 @@ class Header extends Component {
 					>
 						Rated
 					</Link>
-					{/* hide-on-med-and-down */}
 					<ul id="nav-mobile" className="right">
 						{this.renderContent()}
 					</ul>
