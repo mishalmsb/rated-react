@@ -8,6 +8,8 @@ import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
 
+// /api/surveys/thanks => add route for thanks
+
 class App extends Component {
 	componentDidMount() {
 		this.props.fetchUser();
