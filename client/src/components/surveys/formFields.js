@@ -1,21 +1,21 @@
 export default [
 	{
 		name: 'title',
-		label: 'Campaign Title',
+		label: 'Title',
 		dataType: 'string',
 		noValueError: 'You must provide a title'
 	},
 	{
 		name: 'subject',
-		label: 'Subject Line',
+		label: 'Notes',
 		dataType: 'string',
-		noValueError: 'You must provide a subject'
+		noValueError: 'You must add a note'
 	},
 	{
 		name: 'body',
-		label: 'Email Body',
+		label: 'Description diplayed in the email',
 		dataType: 'string',
-		noValueError: 'You must provide a body'
+		noValueError: 'You must provide a description'
 	},
 	{
 		name: 'recipients',
