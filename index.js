@@ -39,3 +39,10 @@ if (process.env.NODE_ENV === 'production') {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
+// https://app.sendgrid.com/settings/mail_settings
+
+// Dev
+// https://blahblahemailratemeasdaqdsdfsdfwe0x0x0.localtunnel.me/api/surveys/webhooks
+// Prod
+// https://stark-chamber-86211.herokuapp.com/api/surveys/webhooks
+
